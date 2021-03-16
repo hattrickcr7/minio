@@ -268,7 +268,9 @@ func (l *lrc)reconstruct(shards [][]byte, dataOnly bool) error {
 		return err
 	}
 	for k,v :=range group1Present{
+		if k {
 
+		}
 	}
 	if len(group1Present)==2 {
 		reconstructGroup()
